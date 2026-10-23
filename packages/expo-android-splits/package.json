@@ -1,0 +1,50 @@
+{
+  "name": "@atonemi/expo-android-splits-plugin",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "android",
+    "android-splits",
+    "expo",
+    "react-native"
+  ],
+  "homepage": "https://github.com/atonemi/expo-plugins/tree/main/packages/expo-android-splits",
+  "bugs": {
+    "url": "https://github.com/atonemi/expo-plugins"
+  },
+  "license": "MIT",
+  "author": "https://github.com/atonemi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atonemi/expo-plugins.git",
+    "directory": "packages/expo-android-splits"
+  },
+  "main": "build/withAndroidSplits.js",
+  "types": "build/withAndroidSplits.d.ts",
+  "exports": {
+    ".": {
+      "expo-source": "./src/withAndroidSplits.ts",
+      "default": "./build/withAndroidSplits.js"
+    },
+    "./plugin": {
+      "expo-source": "./src/index.ts",
+      "default": "./build/index.js"
+    },
+    "./app.plugin.js": "./app.plugin.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "expo": ">=54"
+  },
+  "peerDependenciesMeta": {
+    "expo": {
+      "optional": true
+    }
+  }
+}

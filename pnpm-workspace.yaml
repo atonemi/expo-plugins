@@ -1,0 +1,16 @@
+packages:
+  - "packages/*"
+
+peerDependencyRules:
+  allowAny: ["vite"]
+
+catalog:
+  "@types/node": ^24.3.0
+  expo: ~57.0.30
+  expo-module-scripts: ^56.0.3
+  oxlint-config-universe: ^0.2.0
+  typescript: ~6.0.3
+  vite-plus: "latest"
+
+overrides:
+  vite: npm:@voidzero-dev/vite-plus-core@latest

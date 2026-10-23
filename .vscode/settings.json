@@ -1,0 +1,21 @@
+{
+  "files.eol": "\n",
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "explorer.fileNesting.expand": false,
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "editor.formatOnSaveMode": "file",
+  "editor.colorDecorators": true,
+  "editor.defaultColorDecorators": "always",
+  "editor.colorDecoratorsLimit": 1000,
+  "oxc.enable": true,
+  "oxc.typeAware": true,
+  "oxc.disableNestedConfig": true,
+  "oxc.fmt.disableNestedConfig": true,
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.oxc": "explicit",
+    "source.organizeImports": "never"
+  }
+}
